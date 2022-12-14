@@ -3,7 +3,7 @@
 /**
  * main - prints the alphabet 10 times
  */
-void print_alphabet__x10(void);
+void print_alphabet__x10(void)
 
 {
 	int ten;
