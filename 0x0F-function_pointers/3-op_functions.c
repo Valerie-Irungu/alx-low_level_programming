@@ -1,6 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
-#include <stdblib.h>
+#include <stdlib.h>
 /**
  * op_add - sums two numbers
  * @a: number1
