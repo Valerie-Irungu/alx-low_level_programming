@@ -19,10 +19,10 @@ void print_all(const char * const format, ...)
 			switch (format[i])
 			{
 				case 'c':
-					print("%s%c", sep, va_arg(list, int));
+					printf("%s%c", sep, va_arg(list, int));
 					break;
 				case 'i':
-					print("%s%d", sep, va_arg(list, int));
+					printf("%s%d", sep, va_arg(list, int));
 					break;
 				case 'f':
 					printf("%s%f", sep, va_arg(list, double));
